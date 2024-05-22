@@ -1,15 +1,130 @@
-@import 'variables';
+@import 'variables.css';
 
 body {
   background: url('../../dist/images/park.jpg') center/cover;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
 }
 
-nav {
+
+.header-section {
   background-color: var(--secondary-accent-color);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.header-section ul :nth-child(1) {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.linkedin {
+  height: 40px;
+  margin-right: 40px; 
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-accent-color); 
+  color: white; 
+  text-align: center;
+}
+
+footer a {
+  list-style-type: none;
+  color: white;
+  margin-right: 55px;
+}
+
+
+.main-footer img{
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+}
+
+.main-footer li a {
+  justify-self: center;
+}
+
+.main-footer ul li {
+  list-style: none;
 }
 
 .dog-icon {
   width: 50px;
+  margin-left: 10px;
 }
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 5px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.first-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center; 
+  height: 500px; 
+}
+
+.content-wrapper {
+  display: flex;
+  height: 450px;
+  width: 100vw;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+
+.dog-1-image {
+  border-radius: 50%;
+  border: 6px solid var(--main-accent-color); 
+}
+
+.dog-2-image,
+.dog-3-image,
+.dog-4-image
+ {
+  border-radius: 50%;
+  border: 6px solid var(--main-accent-color); 
+  width: 150px; object-fit: cover;
+}
+
+button {
+  border: 4px solid var(--main-accent-color);
+  color: var(--main-accent-color);
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+}
+
+.what-are-dogs {
+  height: 40px;
+  width: 130px;
+}
+

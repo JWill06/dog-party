@@ -2,6 +2,9 @@
 <html lang="en">
 
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +14,8 @@
   </head>
 
   <body>
-    <image class="dog-icon" src="./images/dog-icon.svg">
     <header class="header-section" alt="main-header">
+      <image class="dog-icon" src="./images/dog-icon.svg">
       <nav>
         <ul>
           <li><a href="how">How</a></li>
@@ -24,12 +27,12 @@
 
     <main class="main-body" id="mainBody" alt="main-body-section">
       <section class="main-site-section" alt="first-section">
-        <div>
-          <h1 class="intro-h-tag" alt="intro-h-tag">A Site About Dogs</h1>
-          <img class="happy-pitbull" alt="happy-pitbull-image" src="./images/dog1-sq.jpg">
+        <div class="first-div">
+          <h1 class="intro-h-tag" alt="intro-h-tag">A Site About Some Dogs</h1>
+          <img class="dog-1-image" alt="happy-pitbull-image" src="./images/dog1-sq.jpg">
           <button class="what-are-dogs" alt="what-are-dogs-button">What are Dogs</button>
         </div>
-
+      <div class="content-wrapper">
         <div class="second-div" alt="about-dogs">
           <h2 class="how-block" alt="how-block">How</h2>
           <img class="dog-2-image" alt="happy-pitbull-image" src="./images/dog2-sq.jpg">
@@ -56,17 +59,24 @@
           </p>
           <button class="dog-facts" alt="facts-button">Dog Facts</button>
         </div>
-      </section>
+      </div>
+
+      
       <footer class="main-footer" alt="footer-section">
-        <h3 class="learn" alt="learn-more-text">Learn About Dogs Online</h3>
         <div>
-          <img class="facebook" alt="facebook-icon" src="./images/instagram.svg"> 
+          <h3 class="learn" alt="learn-more-text">Learn About Dogs Online</h3>
+          <div>
+          <img class="facebook" alt="facebook-icon" src="./images/facebook.svg"> 
           <img class="twitter" alt="twitter-icon" src="./images/twitter.svg">
           <img class="instagram" alt="instagram-icon" src="./images/instagram.svg">
           <img class="linkedIn" alt="linkedIn-icon" src="./images/linkedin.svg">
         </div>
-        <li><a href="onGitHub">See this on GitHub</a></li>
+      </div>
+      <ul>
+      <li><a href="onGitHub">See this on GitHub</a></li>
+      </ul>
       </footer>
+    </section>
     </main>
     <script src="bundle.js"></script>
   </body>
