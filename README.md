@@ -1,4 +1,7 @@
-# Static Comp Challenge - Frontend Module 2
+# Dog-Party
+
+## Abstract
+The goal of this project was to recreate a static display of the spec image below.
 
 ## Project Spec  
 [https://frontend.turing.edu/projects/M2-static-comp-challenge.html](https://frontend.turing.edu/projects/M2-static-comp-challenge.html)
@@ -10,16 +13,14 @@
 1. To verify that it is setup correctly, run `npm start` in your terminal. Go to `http://localhost:8080/` and you should see a page with the Turing logo image and a beautiful gradient background. If that's the case, you're good to go.
 2. Enter `control + c` in your terminal to stop the server at any time.
 
-## Specification
+## Wins
+1. I was able to complete this project under 4 hours.
+2. I was able to recreate the static comp almost exactly to spec with little issues.
 
-This static comp challenge will keep you exercising that HTML/CSS muscle. :muscle: You will be asked to recreate the image below by recreating the screenshot using HTML and CSS.
+## Challenges
+1. Being able to properly keep the text spaced properly was a bit of a struggle.
+2. Trying to prevent the page from having a scroll bar either way was nearly impossible. 
 
-In other static comp challenges (but not this one), we'll give you a bit of flexibility, however the objective is to build something that **very closely** represents the original design.
+## Preview of page
 
-Once you get into the workforce, building out comps that reflect the designer's choice in layout, spacing, font, imagery, and color to the smallest detail, is a requirement.
-
-## The Challenge
-
-Your challenge is to recreate the following image using HTML and CSS. You've been given some initial files to get started that you must use.
-
-![this](dog-party-spec.png).
+![Screenshot 2024-05-23 at 10 11 38 AM](https://github.com/JWill06/dog-party/assets/127267694/51150f7b-caa4-4222-a012-dc119c4672d4)
